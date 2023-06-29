@@ -88,7 +88,7 @@ I will learn more about Javascript and its Library especially vue.js, and in the
 
 ## Author
 
--Linkedin - [Irfan Rizki Saputra] (http://linkedin.com//in/nafri97)
+- Linkedin - [IrfanRizkiSaputra] (http://linkedin.com//in/nafri97)
 - Frontend Mentor - [@nafri97](https://www.frontendmentor.io/profile/nafri97)
 - Twitter - [@irfanrizkis](https://www.twitter.com/irfanrizkis)
 
