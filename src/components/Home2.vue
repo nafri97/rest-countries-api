@@ -1,6 +1,6 @@
 <script>
 import FilterRegion from './FilterRegion.vue'
-import SearchCountry from './searchCountry.vue'
+import SearchCountry from './SearchCountry.vue'
 
 export default{
   name: 'Home',
