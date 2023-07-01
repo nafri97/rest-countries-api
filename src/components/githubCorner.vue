@@ -20,16 +20,11 @@ svg:hover{
   right: 0;
   text-decoration: none;
   top: 0;
-  z-index: 100;
+  z-index: 201;
 }
 @media (max-width: 768px){
     a{
         display : none;
-    }
-}
-@media (min-width: 768px){
-    a{
-        display : fixed;
     }
 }
 
