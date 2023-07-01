@@ -27,5 +27,10 @@ svg:hover{
         display : none;
     }
 }
+@media (min-width: 768px){
+    a{
+        display : fixed;
+    }
+}
 
 </style>
