@@ -38,7 +38,11 @@ import BorderList from './BorderList.vue';
                 <p><b>Sub Region:</b> {{ countryData[0].subregion }}</p>
                 <p><b>Top Level Domain:</b> {{ countryData[0].tld[0] }}</p>
                 <p><b>Currencies:</b> {{ Object.values(countryData[0].currencies)[0].name }}</p>
-                <p><b>Languages:</b> <span v-for="lang in (Object.values(countryData[0].languages))">{{ lang }}, </span></p>
+                <p><b>Languages:</b>
+                  <span v-for="(lang, index) in Object.values(countryData[0].languages)">
+                    {{ lang }}{{ index < Object.values(countryData[0].languages).length - 1 ? ', ' : '' }}
+                  </span>
+                </p>
             </div>
             <BorderList :borders="countryData[0].borders"></BorderList>
 
